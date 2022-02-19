@@ -118,7 +118,7 @@ include"../db.php";
                                             echo"<td>$employee[office]</td>";
                                             echo"<td>$employee[age]</td>";
                                             echo"<td>$employee[salary]</td>";
-                                            echo"<td><a style='color:white;text-decoration:none' href='editForm.php?id=$employee[id]'><button class='btn btn-primary btn-block'>Edit</button></a></td>";
+                                            echo"<td><a style='color:white;text-decoration:none' href='editEmployee.php?id=$employee[id]'><button class='btn btn-primary btn-block'>Edit</button></a></td>";
                                             echo"<td><a style='color:white;text-decoration:none' href='delete.php?id=$employee[id]'><button class='btn btn-danger btn-block'>Delete</button></a></td>";
                                          echo"</tr>";
                                          }?>

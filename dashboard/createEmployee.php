@@ -37,7 +37,7 @@
        VALUES ('$employee_name','$employee_position','$employee_office','$employee_age',
        '$employee_salary')");
        $sql->execute();
-       header("Location:http://localhost/JOBTASK/dashboard/tables.php");
+       header("Location:http://localhost/JOBTASK/dashboard/showEmployees.php");
   }
 ?>
     <div class="container">

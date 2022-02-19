@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET")
        `office`='$_POST[edit_office]',`age`='$_POST[edit_age]',`salary`='$_POST[edit_salary]' WHERE id='$edit'");
         $stmt=$conn->prepare($data);
         $stmt->execute();
-        header("Location:http://localhost/JOBTASK/dashboard/tables.php");
+        header("Location:http://localhost/JOBTASK/dashboard/showEmployees.php");
     }
 ?> 
 <head>
